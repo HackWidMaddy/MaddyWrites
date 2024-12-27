@@ -7,7 +7,7 @@ import tailwind from '@astrojs/tailwind';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://obsidian-bloger.pages.dev',
+	site: 'https://maddywrites.pages.dev',
 	base: '/',
 	integrations: [mdx(), sitemap(), tailwind()],
 	output: 'static',
